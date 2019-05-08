@@ -1,0 +1,41 @@
+{
+  "name": "objection-joi",
+  "version": "0.0.1",
+  "description": "Objection.js plugin that supports Joi as schema validation",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/igorgolovanov/objection-joi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorgolovanov/objection-joi/issues"
+  },
+  "homepage": "https://github.com/igorgolovanov/objection-joi#readme",
+  "keywords": [
+    "objection",
+    "joi",
+    "db",
+    "database",
+    "knex",
+    "hapi"
+  ],
+  "author": {
+    "name": "Igor Golovanov",
+    "email": "igor.golovanov@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.x.x"
+  },
+  "dependencies": {
+    "@hapi/joi": "15.x.x"
+  },
+  "devDependencies": {
+    "@hapi/code": "5.x.x",
+    "@hapi/lab": "18.x.x",
+    "objection": "1.x.x"
+  },
+  "scripts": {
+    "test": "lab -La @hapi/code -t 100"
+  }
+}
